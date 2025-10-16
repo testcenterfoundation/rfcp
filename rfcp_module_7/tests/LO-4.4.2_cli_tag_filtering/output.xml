@@ -1,0 +1,167 @@
+<!-- © 2025 Testsmith. Exclusive training material.
+     Distributed to armin a (armin.arabshahi@gmail.com) on 2025-09-29.
+     Licensed for personal learning only. No redistribution, copying, or public posting
+     (including blogs, social media, GitHub, Gists, or forums). Do not remove this notice.
+     Contact: info@testsmith.io -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.10.16 on darwin)" generated="2025-06-04T10:55:14.454699" rpa="false" schemaversion="5">
+<suite id="s1" name="Demo" source="/Users/roy/tmp/robotframework-courseware/tests/k2_demos/LO-4.4.2_cli_tag_filtering/demo.robot">
+<kw name="New Browser" owner="Browser" type="SETUP">
+<msg time="2025-06-04T10:55:14.527811" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/roy/tmp/robotframework-courseware/tests/k2_demos/LO-4.4.2_cli_tag_filtering/browser/traces/temp/e28627ff-e062-4eed-aebd-9098aabc6339"}</msg>
+<msg time="2025-06-04T10:55:14.547527" level="INFO">Starting Browser process /Users/roy/.virtualenvs/robotframework/lib/python3.10/site-packages/Browser/wrapper/index.js using at 127.0.0.1:59946</msg>
+<msg time="2025-06-04T10:55:16.006054" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/roy/tmp/robotframework-courseware/tests/k2_demos/LO-4.4.2_cli_tag_filtering/browser/traces/temp/e28627ff-e062-4eed-aebd-9098aabc6339"}</msg>
+<arg>headless=True</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-06-04T10:55:14.527429" elapsed="1.478797"/>
+</kw>
+<test id="s1-t1" name="Open Practice Software Testing Homepage" line="8">
+<kw name="New Page" owner="Browser">
+<msg time="2025-06-04T10:55:16.439232" level="INFO">Successfully initialized new page object and opened url: https://practicesoftwaretesting.com</msg>
+<msg time="2025-06-04T10:55:16.439310" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://practicesoftwaretesting.com</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-06-04T10:55:16.008815" elapsed="0.430582"/>
+</kw>
+<kw name="Get Element States" owner="Browser">
+<msg time="2025-06-04T10:55:16.473860" level="INFO">States are: ['attached', 'visible', 'enabled', 'editable', 'defocused']</msg>
+<arg>data-test=search-query</arg>
+<arg>contains</arg>
+<arg>visible</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Get the active states from the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-04T10:55:16.439582" elapsed="0.034363"/>
+</kw>
+<msg time="2025-06-04T10:55:16.482082" level="INFO">Switching context to context=ce44a41b-82a9-458d-b39d-5a60583a904e in CURRENT</msg>
+<msg time="2025-06-04T10:55:16.488382" level="INFO">Successfully changed active context: context=ce44a41b-82a9-458d-b39d-5a60583a904e</msg>
+<msg time="2025-06-04T10:55:16.494568" level="INFO">Successfully closed Context</msg>
+<tag>regression</tag>
+<tag>smoke</tag>
+<status status="PASS" start="2025-06-04T10:55:16.006380" elapsed="0.467748"/>
+</test>
+<test id="s1-t2" name="Search For Pliers" line="13">
+<kw name="New Page" owner="Browser">
+<msg time="2025-06-04T10:55:16.773247" level="INFO">Successfully initialized new page object and opened url: https://practicesoftwaretesting.com</msg>
+<msg time="2025-06-04T10:55:16.773313" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://practicesoftwaretesting.com</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-06-04T10:55:16.496394" elapsed="0.276992"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-06-04T10:55:16.773885" level="INFO">Fills the text 'Pliers' in the given field.</msg>
+<arg>data-test=search-query</arg>
+<arg>Pliers</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-06-04T10:55:16.773560" elapsed="0.034220"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-06-04T10:55:16.808330" level="INFO">Clicks the element 'data-test=search-submit'.</msg>
+<arg>data-test=search-submit</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-04T10:55:16.807990" elapsed="0.078835"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-06-04T10:55:16.899641" level="INFO">Text: 'Pliers'</msg>
+<arg>data-test=search-term</arg>
+<arg>contains</arg>
+<arg>Pliers</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-04T10:55:16.887039" elapsed="0.012670"/>
+</kw>
+<msg time="2025-06-04T10:55:16.906554" level="INFO">Switching context to context=a1c3859c-a828-40e4-925b-0e2859015378 in CURRENT</msg>
+<msg time="2025-06-04T10:55:16.909580" level="INFO">Successfully changed active context: context=a1c3859c-a828-40e4-925b-0e2859015378</msg>
+<msg time="2025-06-04T10:55:16.913864" level="INFO">Successfully closed Context</msg>
+<tag>slow</tag>
+<tag>smoke</tag>
+<status status="PASS" start="2025-06-04T10:55:16.494846" elapsed="0.405016"/>
+</test>
+<test id="s1-t3" name="Check Login Page Accessibility" line="20">
+<kw name="New Page" owner="Browser">
+<msg time="2025-06-04T10:55:17.216426" level="INFO">Successfully initialized new page object and opened url: https://practicesoftwaretesting.com</msg>
+<msg time="2025-06-04T10:55:17.216492" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://practicesoftwaretesting.com</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-06-04T10:55:16.915430" elapsed="0.301133"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-06-04T10:55:17.217228" level="INFO">Clicks the element 'data-test=nav-sign-in'.</msg>
+<arg>data-test=nav-sign-in</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-04T10:55:17.216748" elapsed="0.041243"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-06-04T10:55:17.366564" level="INFO">Text: 'Login'</msg>
+<arg>h3</arg>
+<arg>contains</arg>
+<arg>Login</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-04T10:55:17.258186" elapsed="0.108459"/>
+</kw>
+<msg time="2025-06-04T10:55:17.372165" level="INFO">Switching context to context=62114740-968d-4ca1-a506-7d54877fed26 in CURRENT</msg>
+<msg time="2025-06-04T10:55:17.374759" level="INFO">Successfully changed active context: context=62114740-968d-4ca1-a506-7d54877fed26</msg>
+<msg time="2025-06-04T10:55:17.377696" level="INFO">Successfully closed Context</msg>
+<tag>feature-login</tag>
+<tag>regression</tag>
+<status status="PASS" start="2025-06-04T10:55:16.914139" elapsed="0.452668"/>
+</test>
+<test id="s1-t4" name="Unstable New Feature" line="30">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-04T10:55:17.379570" level="INFO">This is an unstable test for a new feature.</msg>
+<arg>This is an unstable test for a new feature.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-04T10:55:17.379385" elapsed="0.000222"/>
+</kw>
+<tag>feature-new</tag>
+<tag>unstable</tag>
+<status status="PASS" start="2025-06-04T10:55:17.378063" elapsed="0.001653"/>
+</test>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2025-06-04T10:55:17.395816" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-06-04T10:55:17.381541" elapsed="0.014387"/>
+</kw>
+<status status="PASS" start="2025-06-04T10:55:14.455780" elapsed="2.940208"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">feature-login</stat>
+<stat pass="1" fail="0" skip="0">feature-new</stat>
+<stat pass="2" fail="0" skip="0">regression</stat>
+<stat pass="1" fail="0" skip="0">slow</stat>
+<stat pass="2" fail="0" skip="0">smoke</stat>
+<stat pass="1" fail="0" skip="0">unstable</stat>
+</tag>
+<suite>
+<stat name="Demo" id="s1" pass="4" fail="0" skip="0">Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,1101 @@
+{"level":30,"time":"2025-05-14T18:34:03.491Z","pid":61206,"hostname":"testsmithio.local","msg":"Listening on 59552"}
+(node:61206) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-05-14T18:34:04.606Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-05-14T18:34:05.009Z","pid":61206,"hostname":"testsmithio.local","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-05-14T18:34:05.009Z","pid":61206,"hostname":"testsmithio.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-05-14T18:34:05.009Z","pid":61206,"hostname":"testsmithio.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-05-14T18:34:05.012Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-05-14T18:34:05.012Z","pid":61206,"hostname":"testsmithio.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-05-14T18:34:05.017Z","pid":61206,"hostname":"testsmithio.local","msg":"Changed active context"}
+{"level":30,"time":"2025-05-14T18:34:05.959Z","pid":61206,"hostname":"testsmithio.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-05-14T18:34:05.960Z","pid":61206,"hostname":"testsmithio.local","msg":"Changed active page"}
+{"level":30,"time":"2025-05-14T18:34:06.595Z","pid":61206,"hostname":"testsmithio.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-05-14T18:34:06.599Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-14T18:34:06.599Z","pid":61206,"hostname":"testsmithio.local","msg":"Strict mode is enabled, find Locator with \"Sign in\" in page."}
+{"level":30,"time":"2025-05-14T18:34:07.200Z","pid":61206,"hostname":"testsmithio.local","msg":"End of node method click"}
+{"level":30,"time":"2025-05-14T18:34:07.203Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-05-14T18:34:07.203Z","pid":61206,"hostname":"testsmithio.local","msg":"Strict mode is enabled, find Locator with [data-test=email] in page."}
+{"level":30,"time":"2025-05-14T18:34:07.215Z","pid":61206,"hostname":"testsmithio.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-05-14T18:34:07.217Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-05-14T18:34:07.217Z","pid":61206,"hostname":"testsmithio.local","msg":"Strict mode is enabled, find Locator with [data-test=password] in page."}
+{"level":30,"time":"2025-05-14T18:34:07.223Z","pid":61206,"hostname":"testsmithio.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-05-14T18:34:07.225Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-14T18:34:07.225Z","pid":61206,"hostname":"testsmithio.local","msg":"Strict mode is enabled, find Locator with [data-test=login-submit] in page."}
+{"level":30,"time":"2025-05-14T18:34:07.460Z","pid":61206,"hostname":"testsmithio.local","msg":"End of node method click"}
+{"level":30,"time":"2025-05-14T18:34:07.462Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-05-14T18:34:07.462Z","pid":61206,"hostname":"testsmithio.local","msg":"Strict mode is enabled, find Locator with [data-test=email] in page."}
+{"level":30,"time":"2025-05-14T18:34:07.467Z","pid":61206,"hostname":"testsmithio.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-05-14T18:34:07.471Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-05-14T18:34:07.471Z","pid":61206,"hostname":"testsmithio.local","msg":"Strict mode is enabled, find Locator with [data-test=password] in page."}
+{"level":30,"time":"2025-05-14T18:34:07.474Z","pid":61206,"hostname":"testsmithio.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-05-14T18:34:07.476Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-05-14T18:34:07.477Z","pid":61206,"hostname":"testsmithio.local","msg":"Strict mode is enabled, find Locator with [data-test=login-submit] in page."}
+{"level":30,"time":"2025-05-14T18:34:13.229Z","pid":61206,"hostname":"testsmithio.local","msg":"Removed page=16de3a9f-bbea-4a9b-9b46-01936054e7a4 from context=4c2c6e12-9a13-4d6a-9ca4-889553daca25 page stack"}
+{"level":40,"time":"2025-05-14T18:34:13.230Z","pid":61206,"hostname":"testsmithio.local","msg":"Supress locator.click: Target page, context or browser has been closed error"}
+{"level":30,"time":"2025-05-14T18:34:13.230Z","pid":61206,"hostname":"testsmithio.local","msg":"End of node method click"}
+{"level":30,"time":"2025-05-14T18:34:13.232Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.232Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.244Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.244Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.258Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.258Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.271Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.271Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.285Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.285Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.299Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.299Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.313Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.313Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.327Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.327Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.339Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.339Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.353Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.353Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.367Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.367Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.381Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.381Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.394Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.395Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.406Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.406Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.420Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.420Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.434Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.434Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.451Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.451Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.469Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.469Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.486Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.490Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.506Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.507Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.524Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.524Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.541Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.542Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.555Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.555Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.569Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.569Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.583Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.583Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.596Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.596Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.610Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.610Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.622Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.622Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.635Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.635Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.651Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.651Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.665Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.665Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.680Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.680Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.692Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.692Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.704Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.704Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.718Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.718Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.733Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-14T18:34:13.733Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.749Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.749Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.765Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.765Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.778Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.778Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.792Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.792Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.807Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.807Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.821Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.821Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.834Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.834Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.852Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.852Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.867Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.867Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.880Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.880Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.894Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.894Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.907Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.907Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.924Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.924Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.940Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.940Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.954Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.954Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.972Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.973Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:13.986Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:13.986Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.001Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.002Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.020Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.020Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.034Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.034Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.050Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.051Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.068Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.068Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+{"level":30,"time":"2025-05-14T18:34:14.084Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.084Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.098Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.098Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.112Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.112Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.125Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.125Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.141Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-05-14T18:34:14.141Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.159Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.159Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.171Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.171Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.184Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.184Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.198Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.198Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.211Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.211Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.225Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.225Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.238Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at findLocator (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10682:3)
+    at getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:11588:25)
+    at PlaywrightServer.getText (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.239Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  getText"}
+{"level":30,"time":"2025-05-14T18:34:14.240Z","pid":61206,"hostname":"testsmithio.local","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10725:11)
+    at takeScreenshot (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:10769:3)
+    at PlaywrightServer.takeScreenshot (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js:13132:34)
+    at Object.onReceiveHalfClose (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-05-14T18:34:14.240Z","pid":61206,"hostname":"testsmithio.local","msg":"Error of node method  takeScreenshot"}

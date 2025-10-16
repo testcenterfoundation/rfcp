@@ -1,0 +1,16 @@
+# © 2025 Testsmith. Exclusive training material.
+# Distributed to armin a (armin.arabshahi@gmail.com) on 2025-09-29.
+# Licensed for personal learning only. No redistribution, copying, or public posting
+# (including blogs, social media, GitHub, Gists, or forums). Do not remove this notice.
+# Contact: info@testsmith.io
+
+[tool.robocop.format]
+configure = [
+  "line-too-long.line_length=140",
+  "too-many-calls-in-keyword.max_calls=25",
+  "too-many-calls-in-test-case.max_calls=25",
+  "section-out-of-order.sections_order=settings,variables,testcases,keywords",
+  "AlignSettingsSection.min_width=20",
+  "AlignTestCasesSection.enabled=True",
+  "AlignTestCasesSection.alignment_type=auto",
+]

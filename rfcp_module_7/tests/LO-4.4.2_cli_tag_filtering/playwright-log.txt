@@ -1,0 +1,118 @@
+{"level":30,"time":"2025-06-04T08:55:14.777Z","pid":72898,"hostname":"testsmith.home","msg":"Listening on 127.0.0.1:59946"}
+(node:72898) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-06-04T08:55:15.895Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-04T08:55:16.005Z","pid":72898,"hostname":"testsmith.home","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-06-04T08:55:16.005Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-04T08:55:16.005Z","pid":72898,"hostname":"testsmith.home","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-04T08:55:16.008Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.008Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.010Z","pid":72898,"hostname":"testsmith.home","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-04T08:55:16.010Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-04T08:55:16.041Z","pid":72898,"hostname":"testsmith.home","msg":"Changed active context"}
+{"level":30,"time":"2025-06-04T08:55:16.100Z","pid":72898,"hostname":"testsmith.home","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-04T08:55:16.100Z","pid":72898,"hostname":"testsmith.home","msg":"Changed active page"}
+{"level":30,"time":"2025-06-04T08:55:16.438Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-04T08:55:16.441Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-06-04T08:55:16.441Z","pid":72898,"hostname":"testsmith.home","msg":"Strict mode is enabled, find Locator with data-test=search-query in page."}
+{"level":30,"time":"2025-06-04T08:55:16.461Z","pid":72898,"hostname":"testsmith.home","msg":"Element data-test=search-query is editable: true"}
+{"level":30,"time":"2025-06-04T08:55:16.461Z","pid":72898,"hostname":"testsmith.home","msg":"Checking checked state"}
+{"level":30,"time":"2025-06-04T08:55:16.473Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-06-04T08:55:16.476Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.477Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.478Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.478Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.480Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.480Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.482Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.483Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.485Z","pid":72898,"hostname":"testsmith.home","msg":"Changed active context"}
+{"level":30,"time":"2025-06-04T08:55:16.486Z","pid":72898,"hostname":"testsmith.home","msg":"Changing current active page: page=42b1d801-f451-4f36-96bf-20577a69c4ab"}
+{"level":30,"time":"2025-06-04T08:55:16.486Z","pid":72898,"hostname":"testsmith.home","msg":"Changed active page"}
+{"level":30,"time":"2025-06-04T08:55:16.489Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-06-04T08:55:16.491Z","pid":72898,"hostname":"testsmith.home","msg":"Removed page=786bde69-4d96-4d48-b52e-19f4b2ac23b1 from context=ce44a41b-82a9-458d-b39d-5a60583a904e page stack"}
+{"level":30,"time":"2025-06-04T08:55:16.494Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-06-04T08:55:16.495Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.495Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.497Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-04T08:55:16.497Z","pid":72898,"hostname":"testsmith.home","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-04T08:55:16.499Z","pid":72898,"hostname":"testsmith.home","msg":"Changed active context"}
+{"level":30,"time":"2025-06-04T08:55:16.533Z","pid":72898,"hostname":"testsmith.home","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-04T08:55:16.533Z","pid":72898,"hostname":"testsmith.home","msg":"Changed active page"}
+{"level":30,"time":"2025-06-04T08:55:16.772Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-04T08:55:16.774Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-04T08:55:16.774Z","pid":72898,"hostname":"testsmith.home","msg":"Strict mode is enabled, find Locator with data-test=search-query in page."}
+{"level":30,"time":"2025-06-04T08:55:16.807Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-04T08:55:16.809Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-04T08:55:16.809Z","pid":72898,"hostname":"testsmith.home","msg":"Strict mode is enabled, find Locator with data-test=search-submit in page."}
+{"level":30,"time":"2025-06-04T08:55:16.886Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method click"}
+{"level":30,"time":"2025-06-04T08:55:16.888Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-04T08:55:16.888Z","pid":72898,"hostname":"testsmith.home","msg":"Strict mode is enabled, find Locator with data-test=search-term in page."}
+{"level":30,"time":"2025-06-04T08:55:16.899Z","pid":72898,"hostname":"testsmith.home","msg":"Retrieved text for element data-test=search-term containing Pliers"}
+{"level":30,"time":"2025-06-04T08:55:16.899Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-04T08:55:16.901Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.902Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.903Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.903Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.904Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.905Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.907Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.907Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.908Z","pid":72898,"hostname":"testsmith.home","msg":"Changed active context"}
+{"level":30,"time":"2025-06-04T08:55:16.908Z","pid":72898,"hostname":"testsmith.home","msg":"Changing current active page: page=b2b06aa0-935b-4990-91b4-6cc808e23c14"}
+{"level":30,"time":"2025-06-04T08:55:16.908Z","pid":72898,"hostname":"testsmith.home","msg":"Changed active page"}
+{"level":30,"time":"2025-06-04T08:55:16.909Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-06-04T08:55:16.910Z","pid":72898,"hostname":"testsmith.home","msg":"Removed page=6ad2b77b-d224-4331-83f6-aed9544a5bed from context=a1c3859c-a828-40e4-925b-0e2859015378 page stack"}
+{"level":30,"time":"2025-06-04T08:55:16.913Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-06-04T08:55:16.915Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.915Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:16.916Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-04T08:55:16.916Z","pid":72898,"hostname":"testsmith.home","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-04T08:55:16.917Z","pid":72898,"hostname":"testsmith.home","msg":"Changed active context"}
+{"level":30,"time":"2025-06-04T08:55:16.947Z","pid":72898,"hostname":"testsmith.home","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-04T08:55:16.947Z","pid":72898,"hostname":"testsmith.home","msg":"Changed active page"}
+{"level":30,"time":"2025-06-04T08:55:17.215Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-04T08:55:17.217Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-04T08:55:17.218Z","pid":72898,"hostname":"testsmith.home","msg":"Strict mode is enabled, find Locator with data-test=nav-sign-in in page."}
+{"level":30,"time":"2025-06-04T08:55:17.257Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method click"}
+{"level":30,"time":"2025-06-04T08:55:17.259Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-04T08:55:17.259Z","pid":72898,"hostname":"testsmith.home","msg":"Strict mode is enabled, find Locator with h3 in page."}
+{"level":30,"time":"2025-06-04T08:55:17.366Z","pid":72898,"hostname":"testsmith.home","msg":"Retrieved text for element h3 containing Login"}
+{"level":30,"time":"2025-06-04T08:55:17.366Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-04T08:55:17.368Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.369Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.370Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.370Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.371Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.371Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.372Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.373Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.374Z","pid":72898,"hostname":"testsmith.home","msg":"Changed active context"}
+{"level":30,"time":"2025-06-04T08:55:17.374Z","pid":72898,"hostname":"testsmith.home","msg":"Changing current active page: page=e1543948-99b2-4f19-8c6d-8518d9a61ef9"}
+{"level":30,"time":"2025-06-04T08:55:17.374Z","pid":72898,"hostname":"testsmith.home","msg":"Changed active page"}
+{"level":30,"time":"2025-06-04T08:55:17.374Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-06-04T08:55:17.375Z","pid":72898,"hostname":"testsmith.home","msg":"Removed page=456f38ef-6723-4b89-82c4-6f0d3621b9da from context=62114740-968d-4ca1-a506-7d54877fed26 page stack"}
+{"level":30,"time":"2025-06-04T08:55:17.377Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-06-04T08:55:17.378Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.379Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.381Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.381Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.382Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-06-04T08:55:17.395Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/roy/.virtualenvs/robotframework/lib/python3.10/site-packages/Browser/wrapper/index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (/Users/roy/.virtualenvs/robotframework/lib/python3.10/site-packages/Browser/wrapper/index.js:13122:59)
+    at PlaywrightServer.setTimeout (/Users/roy/.virtualenvs/robotframework/lib/python3.10/site-packages/Browser/wrapper/index.js:13370:57)
+    at Object.onReceiveHalfClose (/Users/roy/.virtualenvs/robotframework/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/roy/.virtualenvs/robotframework/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/roy/.virtualenvs/robotframework/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/roy/.virtualenvs/robotframework/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-04T08:55:17.397Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.397Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-04T08:55:17.409Z","pid":72898,"hostname":"testsmith.home","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-06-04T08:55:17.409Z","pid":72898,"hostname":"testsmith.home","msg":"End of node method closeAllBrowsers"}

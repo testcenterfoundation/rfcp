@@ -1,0 +1,620 @@
+<!-- © 2025 Testsmith. Exclusive training material.
+     Distributed to armin a (armin.arabshahi@gmail.com) on 2025-09-29.
+     Licensed for personal learning only. No redistribution, copying, or public posting
+     (including blogs, social media, GitHub, Gists, or forums). Do not remove this notice.
+     Contact: info@testsmith.io -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.1 on darwin)" generated="2025-05-14T20:34:03.172388" rpa="false" schemaversion="5">
+<suite id="s1" name="LO-5.2.6 break continue usage" source="/Users/roy/tmp/robotframework-courseware/tests/k2_demos/LO-5.2.6_break_continue_usage">
+<suite id="s1-s1" name="Disable All Users Except Admin" source="/Users/roy/tmp/robotframework-courseware/tests/k2_demos/LO-5.2.6_break_continue_usage/disable_all_users_except_admin.robot">
+<test id="s1-s1-t1" name="Start new Browser" line="24">
+<kw name="Open browser and url" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-05-14T20:34:03.245604" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/roy/tmp/robotframework-courseware/tests/k2_demos/LO-5.2.6_break_continue_usage/browser/traces/temp/38bd76aa-9330-4e4d-a9ee-5578effc4250"}</msg>
+<msg time="2025-05-14T20:34:03.267704" level="INFO">Starting Browser process /Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js using port 59552</msg>
+<msg time="2025-05-14T20:34:03.267876" level="INFO">Node startup parameters: ['node', '/Users/roy/tmp/robotframework-courseware/.venv/lib/python3.13/site-packages/Browser/wrapper/index.js', '59552']</msg>
+<msg time="2025-05-14T20:34:05.010086" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/roy/tmp/robotframework-courseware/tests/k2_demos/LO-5.2.6_break_continue_usage/browser/traces/temp/38bd76aa-9330-4e4d-a9ee-5578effc4250"}</msg>
+<arg>headless=${False}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-05-14T20:34:03.245280" elapsed="1.765017"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-05-14T20:34:06.596808" level="INFO">Successfully initialized new page object and opened url: https://practicesoftwaretesting.com</msg>
+<msg time="2025-05-14T20:34:06.596948" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://practicesoftwaretesting.com</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-05-14T20:34:05.010575" elapsed="1.586546"/>
+</kw>
+<status status="PASS" start="2025-05-14T20:34:03.244949" elapsed="3.352363"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-05-14T20:34:06.598018" level="INFO">Clicks the element '"Sign in"'.</msg>
+<arg>"Sign in"</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-05-14T20:34:06.597541" elapsed="0.603963"/>
+</kw>
+<kw name="Login">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-05-14T20:34:07.202280" level="INFO">Fills the text 'customer@practicesoftwaretesting.com' in the given field.</msg>
+<arg>[data-test=email]</arg>
+<arg>${email}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-05-14T20:34:07.202035" elapsed="0.014669"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-05-14T20:34:07.217150" level="INFO">Fills the text 'welcome01' in the given field.</msg>
+<arg>[data-test=password]</arg>
+<arg>${password}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-05-14T20:34:07.216834" elapsed="0.007580"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-05-14T20:34:07.224792" level="INFO">Clicks the element '[data-test=login-submit]'.</msg>
+<arg>[data-test=login-submit]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-05-14T20:34:07.224527" elapsed="0.236776"/>
+</kw>
+<arg>customer@practicesoftwaretesting.com</arg>
+<arg>welcome01</arg>
+<doc>Dit keyword zorgd voor het inloggen</doc>
+<status status="PASS" start="2025-05-14T20:34:07.201745" elapsed="0.259649"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-05-14T20:34:07.461931" level="INFO">Fills the text 'customer@practicesoftwaretesting.com' in the given field.</msg>
+<arg>[data-test=email]</arg>
+<arg>customer@practicesoftwaretesting.com</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-05-14T20:34:07.461518" elapsed="0.007227"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-05-14T20:34:07.469772" level="INFO">Fills the text 'welcome01' in the given field.</msg>
+<arg>[data-test=password]</arg>
+<arg>welcome01</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-05-14T20:34:07.468998" elapsed="0.006706"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-05-14T20:34:07.476293" level="INFO">Clicks the element '[data-test=login-submit]'.</msg>
+<arg>[data-test=login-submit]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-05-14T20:34:07.476009" elapsed="5.754634"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-05-14T20:34:14.241162" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg time="2025-05-14T20:34:14.241319" level="INFO">See also file:///Users/roy/tmp/robotframework-courseware/tests/k2_demos/LO-5.2.6_break_continue_usage/playwright-log.txt for additional details.</msg>
+<msg time="2025-05-14T20:34:14.242043" level="FAIL">Error: Could not find active page</msg>
+<arg>[data-test=page-title]</arg>
+<arg>equal</arg>
+<arg>My account</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="FAIL" start="2025-05-14T20:34:13.230813" elapsed="1.015850">Error: Could not find active page</status>
+</kw>
+<msg time="2025-05-14T20:34:14.248547" level="INFO">Set timeout to: 10000</msg>
+<status status="FAIL" start="2025-05-14T20:34:03.244612" elapsed="11.002233">Error: Could not find active page</status>
+</test>
+<status status="FAIL" start="2025-05-14T20:34:03.183749" elapsed="11.065171"/>
+</suite>
+<suite id="s1-s2" name="Loop Control Examples" source="/Users/roy/tmp/robotframework-courseware/tests/k2_demos/LO-5.2.6_break_continue_usage/loop_control_examples.robot">
+<test id="s1-s2-t1" name="Continue Example – Only Process Good Items" line="10">
+<kw name="Process Valid Cart Items">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.255786" level="INFO">${valid_items} = []</msg>
+<var>${valid_items}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.255725" elapsed="0.000080"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.256113" level="INFO">${is_expired} = False</msg>
+<var>${is_expired}</var>
+<arg>"${item}".startswith("Expired")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.256003" elapsed="0.000121"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_expired}">
+<continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.256211" elapsed="0.000010"/>
+</continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.256171" elapsed="0.000065"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.256158" elapsed="0.000088"/>
+</if>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.256428" level="INFO">${is_damaged} = False</msg>
+<var>${is_damaged}</var>
+<arg>"${item}".startswith("Damaged")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.256283" elapsed="0.000155"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_damaged}">
+<continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.256496" elapsed="0.000005"/>
+</continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.256469" elapsed="0.000042"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.256461" elapsed="0.000059"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.256609" level="INFO">Adding to cart: Apple</msg>
+<arg>Adding to cart: ${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.256555" elapsed="0.000070"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${valid_items}</arg>
+<arg>${item}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.256655" elapsed="0.000052"/>
+</kw>
+<var name="${item}">Apple</var>
+<status status="PASS" start="2025-05-14T20:34:14.255955" elapsed="0.000766"/>
+</iter>
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.256888" level="INFO">${is_expired} = False</msg>
+<var>${is_expired}</var>
+<arg>"${item}".startswith("Expired")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.256816" elapsed="0.000081"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_expired}">
+<continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.256947" elapsed="0.000005"/>
+</continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.256922" elapsed="0.000039"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.256916" elapsed="0.000053"/>
+</if>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.257060" level="INFO">${is_damaged} = False</msg>
+<var>${is_damaged}</var>
+<arg>"${item}".startswith("Damaged")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.256998" elapsed="0.000071"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_damaged}">
+<continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.257116" elapsed="0.000004"/>
+</continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.257092" elapsed="0.000037"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.257086" elapsed="0.000050"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.257207" level="INFO">Adding to cart: Banana</msg>
+<arg>Adding to cart: ${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.257166" elapsed="0.000056"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${valid_items}</arg>
+<arg>${item}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.257252" elapsed="0.000050"/>
+</kw>
+<var name="${item}">Banana</var>
+<status status="PASS" start="2025-05-14T20:34:14.256788" elapsed="0.000526"/>
+</iter>
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.257727" level="INFO">${is_expired} = True</msg>
+<var>${is_expired}</var>
+<arg>"${item}".startswith("Expired")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.257404" elapsed="0.000333"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_expired}">
+<continue>
+<status status="PASS" start="2025-05-14T20:34:14.257791" elapsed="0.000016"/>
+</continue>
+<status status="PASS" start="2025-05-14T20:34:14.257765" elapsed="0.000057"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.257758" elapsed="0.000073"/>
+</if>
+<kw name="Evaluate" owner="BuiltIn">
+<var>${is_damaged}</var>
+<arg>"${item}".startswith("Damaged")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" start="2025-05-14T20:34:14.257865" elapsed="0.000008"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_damaged}">
+<continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.257907" elapsed="0.000004"/>
+</continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.257895" elapsed="0.000025"/>
+</branch>
+<status status="NOT RUN" start="2025-05-14T20:34:14.257890" elapsed="0.000037"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<arg>Adding to cart: ${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-05-14T20:34:14.257955" elapsed="0.000007"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${valid_items}</arg>
+<arg>${item}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="NOT RUN" start="2025-05-14T20:34:14.257989" elapsed="0.000006"/>
+</kw>
+<var name="${item}">Expired Milk</var>
+<status status="PASS" start="2025-05-14T20:34:14.257377" elapsed="0.000629"/>
+</iter>
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.258162" level="INFO">${is_expired} = False</msg>
+<var>${is_expired}</var>
+<arg>"${item}".startswith("Expired")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.258093" elapsed="0.000078"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_expired}">
+<continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.258219" elapsed="0.000005"/>
+</continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.258195" elapsed="0.000038"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.258189" elapsed="0.000052"/>
+</if>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.258334" level="INFO">${is_damaged} = False</msg>
+<var>${is_damaged}</var>
+<arg>"${item}".startswith("Damaged")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.258270" elapsed="0.000072"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_damaged}">
+<continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.258388" elapsed="0.000005"/>
+</continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.258365" elapsed="0.000037"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.258359" elapsed="0.000051"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.258480" level="INFO">Adding to cart: Orange</msg>
+<arg>Adding to cart: ${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.258438" elapsed="0.000057"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${valid_items}</arg>
+<arg>${item}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.258524" elapsed="0.000049"/>
+</kw>
+<var name="${item}">Orange</var>
+<status status="PASS" start="2025-05-14T20:34:14.258068" elapsed="0.000518"/>
+</iter>
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.258734" level="INFO">${is_expired} = False</msg>
+<var>${is_expired}</var>
+<arg>"${item}".startswith("Expired")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.258670" elapsed="0.000073"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_expired}">
+<continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.258790" elapsed="0.000005"/>
+</continue>
+<status status="NOT RUN" start="2025-05-14T20:34:14.258767" elapsed="0.000036"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.258761" elapsed="0.000050"/>
+</if>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.258900" level="INFO">${is_damaged} = True</msg>
+<var>${is_damaged}</var>
+<arg>"${item}".startswith("Damaged")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.258840" elapsed="0.000069"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_damaged}">
+<continue>
+<status status="PASS" start="2025-05-14T20:34:14.258954" elapsed="0.000009"/>
+</continue>
+<status status="PASS" start="2025-05-14T20:34:14.258931" elapsed="0.000065"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.258926" elapsed="0.000080"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<arg>Adding to cart: ${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-05-14T20:34:14.259037" elapsed="0.000007"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${valid_items}</arg>
+<arg>${item}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="NOT RUN" start="2025-05-14T20:34:14.259072" elapsed="0.000006"/>
+</kw>
+<var name="${item}">Damaged Cereal</var>
+<status status="PASS" start="2025-05-14T20:34:14.258643" elapsed="0.000446"/>
+</iter>
+<var>${item}</var>
+<value>@{items}</value>
+<status status="PASS" start="2025-05-14T20:34:14.255852" elapsed="0.003250"/>
+</for>
+<return>
+<value>${valid_items}</value>
+<status status="PASS" start="2025-05-14T20:34:14.259125" elapsed="0.000017"/>
+</return>
+<msg time="2025-05-14T20:34:14.259191" level="INFO">${processed} = ['Apple', 'Banana', 'Orange']</msg>
+<var>${processed}</var>
+<arg>@{cart_items}</arg>
+<status status="PASS" start="2025-05-14T20:34:14.255560" elapsed="0.003640"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Processed Items: ${processed}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.259250" elapsed="0.000059"/>
+</kw>
+<kw name="List Should Contain Value" owner="Collections">
+<arg>${processed}</arg>
+<arg>Apple</arg>
+<doc>Fails if the ``value`` is not found from ``list``.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.259347" elapsed="0.000050"/>
+</kw>
+<kw name="List Should Contain Value" owner="Collections">
+<arg>${processed}</arg>
+<arg>Banana</arg>
+<doc>Fails if the ``value`` is not found from ``list``.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.259439" elapsed="0.000048"/>
+</kw>
+<kw name="List Should Not Contain Value" owner="Collections">
+<arg>${processed}</arg>
+<arg>Expired Milk</arg>
+<doc>Fails if the ``value`` is found from ``list``.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.259529" elapsed="0.000044"/>
+</kw>
+<kw name="List Should Not Contain Value" owner="Collections">
+<arg>${processed}</arg>
+<arg>Damaged Cereal</arg>
+<doc>Fails if the ``value`` is found from ``list``.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.259612" elapsed="0.000046"/>
+</kw>
+<doc>This test shows how CONTINUE can be used to skip expired or damaged items in a cart.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.255168" elapsed="0.004540"/>
+</test>
+<test id="s1-s2-t2" name="Break Example – Stop When Out Of Stock Item Is Found" line="19">
+<kw name="Stop Processing At Out Of Stock">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.260485" level="INFO">${scanned_items} = []</msg>
+<var>${scanned_items}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.260435" elapsed="0.000062"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.260721" level="INFO">${is_out_of_stock} = False</msg>
+<var>${is_out_of_stock}</var>
+<arg>"${item}".startswith("Out Of Stock")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.260630" elapsed="0.000102"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_out_of_stock}">
+<kw name="Log" owner="BuiltIn">
+<arg>Found out-of-stock item: ${item} — stopping.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-05-14T20:34:14.260811" elapsed="0.000007"/>
+</kw>
+<break>
+<status status="NOT RUN" start="2025-05-14T20:34:14.260838" elapsed="0.000009"/>
+</break>
+<status status="NOT RUN" start="2025-05-14T20:34:14.260762" elapsed="0.000097"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.260754" elapsed="0.000113"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.260946" level="INFO">Scanning item: Apple</msg>
+<arg>Scanning item: ${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.260898" elapsed="0.000064"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${scanned_items}</arg>
+<arg>${item}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.260991" elapsed="0.000053"/>
+</kw>
+<var name="${item}">Apple</var>
+<status status="PASS" start="2025-05-14T20:34:14.260598" elapsed="0.000460"/>
+</iter>
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.261208" level="INFO">${is_out_of_stock} = False</msg>
+<var>${is_out_of_stock}</var>
+<arg>"${item}".startswith("Out Of Stock")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.261137" elapsed="0.000081"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_out_of_stock}">
+<kw name="Log" owner="BuiltIn">
+<arg>Found out-of-stock item: ${item} — stopping.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-05-14T20:34:14.261290" elapsed="0.000007"/>
+</kw>
+<break>
+<status status="NOT RUN" start="2025-05-14T20:34:14.261313" elapsed="0.000006"/>
+</break>
+<status status="NOT RUN" start="2025-05-14T20:34:14.261244" elapsed="0.000086"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.261238" elapsed="0.000100"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.261414" level="INFO">Scanning item: Banana</msg>
+<arg>Scanning item: ${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.261370" elapsed="0.000060"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${scanned_items}</arg>
+<arg>${item}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.261460" elapsed="0.000050"/>
+</kw>
+<var name="${item}">Banana</var>
+<status status="PASS" start="2025-05-14T20:34:14.261110" elapsed="0.000413"/>
+</iter>
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.261673" level="INFO">${is_out_of_stock} = False</msg>
+<var>${is_out_of_stock}</var>
+<arg>"${item}".startswith("Out Of Stock")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.261603" elapsed="0.000079"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_out_of_stock}">
+<kw name="Log" owner="BuiltIn">
+<arg>Found out-of-stock item: ${item} — stopping.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-05-14T20:34:14.261749" elapsed="0.000007"/>
+</kw>
+<break>
+<status status="NOT RUN" start="2025-05-14T20:34:14.261770" elapsed="0.000006"/>
+</break>
+<status status="NOT RUN" start="2025-05-14T20:34:14.261707" elapsed="0.000078"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.261700" elapsed="0.000093"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.261863" level="INFO">Scanning item: Grapes</msg>
+<arg>Scanning item: ${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.261821" elapsed="0.000056"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${scanned_items}</arg>
+<arg>${item}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.261905" elapsed="0.000049"/>
+</kw>
+<var name="${item}">Grapes</var>
+<status status="PASS" start="2025-05-14T20:34:14.261576" elapsed="0.000392"/>
+</iter>
+<iter>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.262111" level="INFO">${is_out_of_stock} = True</msg>
+<var>${is_out_of_stock}</var>
+<arg>"${item}".startswith("Out Of Stock")</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.262043" elapsed="0.000077"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_out_of_stock}">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-05-14T20:34:14.262272" level="INFO">Found out-of-stock item: Out Of Stock – Watermelon — stopping.</msg>
+<arg>Found out-of-stock item: ${item} — stopping.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.262186" elapsed="0.000103"/>
+</kw>
+<break>
+<status status="PASS" start="2025-05-14T20:34:14.262306" elapsed="0.000016"/>
+</break>
+<status status="PASS" start="2025-05-14T20:34:14.262145" elapsed="0.000189"/>
+</branch>
+<status status="PASS" start="2025-05-14T20:34:14.262139" elapsed="0.000204"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<arg>Scanning item: ${item}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-05-14T20:34:14.262374" elapsed="0.000008"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${scanned_items}</arg>
+<arg>${item}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="NOT RUN" start="2025-05-14T20:34:14.262410" elapsed="0.000007"/>
+</kw>
+<var name="${item}">Out Of Stock – Watermelon</var>
+<status status="PASS" start="2025-05-14T20:34:14.262016" elapsed="0.000413"/>
+</iter>
+<var>${item}</var>
+<value>@{items}</value>
+<status status="PASS" start="2025-05-14T20:34:14.260525" elapsed="0.001917"/>
+</for>
+<return>
+<value>${scanned_items}</value>
+<status status="PASS" start="2025-05-14T20:34:14.262460" elapsed="0.000012"/>
+</return>
+<msg time="2025-05-14T20:34:14.262521" level="INFO">${scanned} = ['Apple', 'Banana', 'Grapes']</msg>
+<var>${scanned}</var>
+<arg>@{inventory_items}</arg>
+<status status="PASS" start="2025-05-14T20:34:14.260311" elapsed="0.002219"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Scanned Items Before Out Of Stock: ${scanned}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.262584" elapsed="0.000166"/>
+</kw>
+<kw name="List Should Contain Value" owner="Collections">
+<arg>${scanned}</arg>
+<arg>Grapes</arg>
+<doc>Fails if the ``value`` is not found from ``list``.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.262863" elapsed="0.000113"/>
+</kw>
+<kw name="List Should Not Contain Value" owner="Collections">
+<arg>${scanned}</arg>
+<arg>Orange</arg>
+<doc>Fails if the ``value`` is found from ``list``.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.263056" elapsed="0.000100"/>
+</kw>
+<doc>This test shows how BREAK is used to stop checking items once an out-of-stock item is found.</doc>
+<status status="PASS" start="2025-05-14T20:34:14.259975" elapsed="0.003246"/>
+</test>
+<status status="PASS" start="2025-05-14T20:34:14.250232" elapsed="0.013096"/>
+</suite>
+<status status="FAIL" start="2025-05-14T20:34:03.173450" elapsed="11.090078"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="LO-5.2.6 break continue usage" id="s1" pass="2" fail="1" skip="0">LO-5.2.6 break continue usage</stat>
+<stat name="Disable All Users Except Admin" id="s1-s1" pass="0" fail="1" skip="0">LO-5.2.6 break continue usage.Disable All Users Except Admin</stat>
+<stat name="Loop Control Examples" id="s1-s2" pass="2" fail="0" skip="0">LO-5.2.6 break continue usage.Loop Control Examples</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
