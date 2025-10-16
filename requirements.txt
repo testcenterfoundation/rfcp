@@ -1,0 +1,8 @@
+robotframework==7.2.2
+robotframework-robocop==6.2.0
+robotframework-faker==5.0.0
+robotframework-jsonlibrary==0.5
+robotframework-assertion-engine==3.0.3
+robotframework-browser==19.4.0
+robotframework-requests==0.9.7
+setuptools==78.1.0
